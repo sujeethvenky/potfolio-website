@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    /* vh means view height */
+    height: 100vh;
+    width: 100vh;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    /* used for remove underline from anker tag */
+    text-decoration: none;
+}
+button{
+    background-color: rgb(18,155,155);
+    padding: 4px 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: fit-content;
+    font-weight: 600;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+nav{
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav .logo{
+     font-weight: 700;
+     font-size: 30px;
+
+
+}
+nav .logo::first-letter{
+    color: orange;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 30px;
+    font-weight: 500px;
+
+}
+ nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 700px;
+
+ }
+
+ .search_field{
+    display: flex;
+    gap: 35px;
+ }
+ input{
+    padding: 4px 10px;
+ }
+
+ .hero_section{
+    display: flex;
+    align-items: center;
+}
+.hero_left_section{
+    width: 60%;
+    padding: 0 8%;
+}
+ .hero_left_section h1{
+    font-size: 38px;
+    margin: 38px;
+    font-weight: 800;
+   
+ }
+ .hero_left_section h1 span{
+    color: rgb(18,155,155);
+    font-weight: 900;
+    background-color: #dfdfe0;
+    padding: 0 15px;
+}
+ .hero_left_section p span{
+    color: rgb(18,155,155);
+    font-weight: 700;
+    font-size: 25 px;
+ }
+ .hero_left_section p{
+    font-weight: 500;
+    /* making center */
+    font-weight: 30px;
+    /* align-items: center; */
+    
+ }
+ .hero_right_section{
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+   /* height: 100%; */
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+
+}
+.hero_right_section_btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+.hero_right_section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+footer p{
+    font-weight: 600;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+footer ul li a i:hover{
+  color: orange;
+  background-color: azure;
+}
+
